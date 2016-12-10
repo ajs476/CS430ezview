@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76401CED1DFBA14C00033650 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 76401CEC1DFBA14C00033650 /* main.c */; };
+		76401CED1DFBA14C00033650 /* ezview.c in Sources */ = {isa = PBXBuildFile; fileRef = 76401CEC1DFBA14C00033650 /* ezview.c */; };
 		76401CF51DFBA25C00033650 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76401CF41DFBA25C00033650 /* OpenGL.framework */; };
 		76401CF71DFBA3F400033650 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 76401CF61DFBA3F400033650 /* libGLEW.2.0.0.dylib */; };
 		76401CF91DFBA41400033650 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 76401CF81DFBA41400033650 /* libglfw.3.2.dylib */; };
@@ -27,10 +27,11 @@
 
 /* Begin PBXFileReference section */
 		76401CE91DFBA14C00033650 /* opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl; sourceTree = BUILT_PRODUCTS_DIR; };
-		76401CEC1DFBA14C00033650 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		76401CEC1DFBA14C00033650 /* ezview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ezview.c; sourceTree = "<group>"; };
 		76401CF41DFBA25C00033650 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		76401CF61DFBA3F400033650 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.0.0/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
 		76401CF81DFBA41400033650 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		76401CFC1DFBAA7F00033650 /* linmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linmath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +68,8 @@
 		76401CEB1DFBA14C00033650 /* opengl */ = {
 			isa = PBXGroup;
 			children = (
-				76401CEC1DFBA14C00033650 /* main.c */,
+				76401CEC1DFBA14C00033650 /* ezview.c */,
+				76401CFC1DFBAA7F00033650 /* linmath.h */,
 			);
 			path = opengl;
 			sourceTree = "<group>";
@@ -139,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76401CED1DFBA14C00033650 /* main.c in Sources */,
+				76401CED1DFBA14C00033650 /* ezview.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
