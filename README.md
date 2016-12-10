@@ -5,9 +5,11 @@ Project Description:
 Load in a ppm image and transform it using OpenGL.
 
 Usage:
-Run the included make file and an OpenGL window will appear.  The following commands transform the loaded image.
+1.) Run the included make file. 
+2.) Execute the following commands to execute the compiled code: ./ezview 123.ppm
+3.) An OpenGL window will appear.  The following commands transform the loaded image:
 
-Commands:
+Keyboard Commands:
 - Left and Right Arrow keys rotate the image in either direction by 90 degrees
 - Up and down keys zoom in or out from the image
 - S and A keys shear the image to either the left or right in the X direction
