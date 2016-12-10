@@ -2,12 +2,12 @@
 # Created by: Alexander Sears
 
 Project Description:
-Load in a ppm image and transform it using OpenGL.
+- Load in a ppm image and transform it using OpenGL.
 
 Usage:
-1.) Run the included make file. 
-2.) Execute the following commands to execute the compiled code: ./ezview 123.ppm
-3.) An OpenGL window will appear.  The following commands transform the loaded image:
+- 1.) Run the included make file. 
+- 2.) Execute the following commands to execute the compiled code: ./ezview 123.ppm
+- 3.) An OpenGL window will appear.  The following commands transform the loaded image:
 
 Keyboard Commands:
 - Left and Right Arrow keys rotate the image in either direction by 90 degrees
